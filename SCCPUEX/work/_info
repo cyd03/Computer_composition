@@ -1,0 +1,309 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Computer_composition/ModelSim/examples
+T_opt
+!s110 1714954140
+VWo;gW?n=^d3[li1mi375e3
+04 5 4 work sccpu fast 0
+=1-38f3ab8c2bab-66381f99-10c-2dd4
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+R0
+valu
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >z732]IeCZk8bI]Ye01F@1
+IOL[XOoXgTDl=WnY>]hQ3h0
+Z2 dE:/Computer_composition/SCCPUEX
+w1714919532
+8E:/Computer_composition/SCCPUEX/alu.v
+FE:/Computer_composition/SCCPUEX/alu.v
+L0 3
+Z3 OL;L;10.4;61
+!s108 1715859052.640000
+!s107 ctrl_encode_def.v|E:/Computer_composition/SCCPUEX/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/alu.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vctrl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;O4;6Q73bd6>5R2Xhb[H83
+Ii1Tn0ezon9HUaZNeVjC;]3
+R2
+w1714962599
+8E:/Computer_composition/SCCPUEX/ctrl.v
+FE:/Computer_composition/SCCPUEX/ctrl.v
+L0 4
+R3
+!s108 1715859052.788000
+!s107 E:/Computer_composition/SCCPUEX/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/ctrl.v|
+!i113 0
+R4
+vdm
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 bXf4ddNg>SEQ<f:`XbeQ71
+I]VNmDe@?ldb0`cDfBINQ<0
+R2
+w1714964023
+8E:/Computer_composition/SCCPUEX/dm.v
+FE:/Computer_composition/SCCPUEX/dm.v
+L0 3
+R3
+!s108 1715859053.086000
+!s107 E:/Computer_composition/SCCPUEX/dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/dm.v|
+!i113 0
+R4
+vEXT
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 d`GCF]Xe]JFP6O7KiSl;j1
+I>2lcPFcWK^2ofkB@9CSOL1
+R2
+w1571487706
+8E:/Computer_composition/SCCPUEX/EXT.v
+FE:/Computer_composition/SCCPUEX/EXT.v
+L0 2
+R3
+!s108 1715859053.230000
+!s107 E:/Computer_composition/SCCPUEX/EXT.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/EXT.v|
+!i113 0
+R4
+n@e@x@t
+vim
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 U;JIL?DAR;UKk>XKgK4W72
+IE1A6aLGo9D5e:zFNSR5970
+R2
+w1551458228
+8E:/Computer_composition/SCCPUEX/im.v
+FE:/Computer_composition/SCCPUEX/im.v
+L0 3
+R3
+!s108 1715859054.383000
+!s107 E:/Computer_composition/SCCPUEX/im.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/im.v|
+!i113 0
+R4
+vmux16
+!s110 1715859062
+!i10b 1
+!s100 _kD]@DiV[:SJ[]_:lBKV[0
+I_R0XMPFMFdH@UHW21ki552
+R1
+R2
+Z5 w1714927602
+Z6 8E:/Computer_composition/SCCPUEX/mux.v
+Z7 FE:/Computer_composition/SCCPUEX/mux.v
+L0 71
+R3
+r1
+!s85 0
+31
+Z8 !s108 1715859062.656000
+Z9 !s107 E:/Computer_composition/SCCPUEX/mux.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/mux.v|
+!i113 0
+R4
+vmux2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 QXC^TY7h[nMB8eh1LThKL1
+IPYf8cSkeNoQRld45T?l913
+R2
+R5
+R6
+R7
+L0 2
+R3
+R8
+R9
+R10
+!i113 0
+R4
+vmux4
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3KQ[c;ZUY31^gKT9SAAk20
+IWUaXRXBz=:g66=9GP60O61
+R2
+R5
+R6
+R7
+L0 15
+R3
+R8
+R9
+R10
+!i113 0
+R4
+vmux8
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 FLg[0F=fBIb=LWfFP8G0M0
+IBTV<nARIT@ocK0OB]_EkH0
+R2
+R5
+R6
+R7
+L0 40
+R3
+R8
+R9
+R10
+!i113 0
+R4
+vNPC
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 M=`=9akSo7n`G=g]aozCl1
+IzSHm9j>KbYL75HNDKdU:=3
+R2
+w1714881955
+8E:/Computer_composition/SCCPUEX/NPC.v
+FE:/Computer_composition/SCCPUEX/NPC.v
+L0 3
+R3
+!s108 1715859062.868000
+!s107 ctrl_encode_def.v|E:/Computer_composition/SCCPUEX/NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/NPC.v|
+!i113 0
+R4
+n@n@p@c
+vPC
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 lM7N@gR;4fMz]3L;mLgJ<2
+In`M>PfDAEBoT[WmHjJ;dV1
+R2
+w1550113688
+8E:/Computer_composition/SCCPUEX/PC.v
+FE:/Computer_composition/SCCPUEX/PC.v
+L0 1
+R3
+!s108 1715859063.011000
+!s107 E:/Computer_composition/SCCPUEX/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/PC.v|
+!i113 0
+R4
+n@p@c
+vRF
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 E>bSi[6CLamTO@PDggXC<3
+IDg^MlOVHM?n4f`6e8ZJQe0
+R2
+w1714956659
+8E:/Computer_composition/SCCPUEX/RF.v
+FE:/Computer_composition/SCCPUEX/RF.v
+L0 2
+R3
+!s108 1715859063.153000
+!s107 E:/Computer_composition/SCCPUEX/RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/RF.v|
+!i113 0
+R4
+n@r@f
+vsccomp
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?IJB1[d03?cI6_3nhmm^c2
+IIP]zl6oD7AzHTO>?g92P;1
+R2
+w1714963073
+8E:/Computer_composition/SCCPUEX/sccomp.v
+FE:/Computer_composition/SCCPUEX/sccomp.v
+L0 1
+R3
+!s108 1715859063.305000
+!s107 E:/Computer_composition/SCCPUEX/sccomp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/sccomp.v|
+!i113 0
+R4
+vsccomp_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Dm?`?nAPZAY0YJD`6zH`M0
+I]=je@TfXL5CfZndf31k8Z2
+R2
+w1715859048
+8E:/Computer_composition/SCCPUEX/sccomp_tb.v
+FE:/Computer_composition/SCCPUEX/sccomp_tb.v
+L0 3
+R3
+!s108 1715859063.467000
+!s107 E:/Computer_composition/SCCPUEX/sccomp_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/sccomp_tb.v|
+!i113 0
+R4
+vsccpu
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 B3iYTASiHH0lDU_822]`d0
+I@9l5l^:i<_FC9UXd<e:eb2
+R2
+w1714961736
+8E:/Computer_composition/SCCPUEX/sccpu.v
+FE:/Computer_composition/SCCPUEX/sccpu.v
+L0 1
+R3
+!s108 1715859063.620000
+!s107 E:/Computer_composition/SCCPUEX/sccpu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/SCCPUEX/sccpu.v|
+!i113 0
+R4

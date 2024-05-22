@@ -1,0 +1,280 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Computer_composition/SCCPUEX
+valu
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 NKAfkDGS931DSi71U9L5B3
+IQgAWH]H^Lo??8zfVX_4:22
+Z1 dE:/Computer_composition/MCCPUEX
+w1714973865
+8E:/Computer_composition/MCCPUEX/alu.v
+FE:/Computer_composition/MCCPUEX/alu.v
+L0 3
+Z2 OL;L;10.4;61
+!s108 1714973867.941000
+!s107 ctrl_encode_def.v|E:/Computer_composition/MCCPUEX/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/alu.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vctrl
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 K>2iZ_@baeR0h>1SJPiV50
+IBden_E@WBg>O@RO]bnc;M0
+R1
+w1714973551
+8E:/Computer_composition/MCCPUEX/ctrl.v
+FE:/Computer_composition/MCCPUEX/ctrl.v
+L0 4
+R2
+!s108 1714973868.031000
+!s107 E:/Computer_composition/MCCPUEX/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/ctrl.v|
+!i113 0
+R3
+vdm
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 WiJ40XKP8aUYcRI<FS8DL3
+I9XCB`ZB7_YZTCFdMTBZ^<0
+R1
+w1572064098
+8E:/Computer_composition/MCCPUEX/dm.v
+FE:/Computer_composition/MCCPUEX/dm.v
+L0 3
+R2
+!s108 1714973868.202000
+!s107 E:/Computer_composition/MCCPUEX/dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/dm.v|
+!i113 0
+R3
+vEXT
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 d`GCF]Xe]JFP6O7KiSl;j1
+IU?b0VQ0B4P:zXPBNRgOFS0
+R1
+w1571500074
+8E:/Computer_composition/MCCPUEX/EXT.v
+FE:/Computer_composition/MCCPUEX/EXT.v
+L0 2
+R2
+!s108 1714973868.288000
+!s107 E:/Computer_composition/MCCPUEX/EXT.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/EXT.v|
+!i113 0
+R3
+n@e@x@t
+vflopenr
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 aa[fbnBV=0Z<hjkS9O5en2
+ILNIz]MEVbJiTb<1W:]HnJ2
+R1
+w1571813108
+8E:/Computer_composition/MCCPUEX/flopenr.v
+FE:/Computer_composition/MCCPUEX/flopenr.v
+L0 1
+R2
+!s108 1714973868.374000
+!s107 E:/Computer_composition/MCCPUEX/flopenr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/flopenr.v|
+!i113 0
+R3
+vflopr
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 cKR]Ja2?a7S:WW`X8LiH32
+I`0MbQ1R4Y25E^f=c<_LIU2
+R1
+w1571662242
+8E:/Computer_composition/MCCPUEX/flopr.v
+FE:/Computer_composition/MCCPUEX/flopr.v
+L0 1
+R2
+!s108 1714973868.456000
+!s107 E:/Computer_composition/MCCPUEX/flopr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/flopr.v|
+!i113 0
+R3
+vmccomp
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 nLI2YIZM6AVMLGGC=X>T:2
+Ic:LdBf[UCBW_4LVNGl6zI2
+R1
+w1572074862
+8E:/Computer_composition/MCCPUEX/mccomp.v
+FE:/Computer_composition/MCCPUEX/mccomp.v
+L0 1
+R2
+!s108 1714973868.537000
+!s107 E:/Computer_composition/MCCPUEX/mccomp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/mccomp.v|
+!i113 0
+R3
+vmccomp_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Z9:lWMjo?Szc??kPLgUOC2
+IDNRc@6k8mSP>B?Hi3LDGC3
+R1
+w1714973692
+8E:/Computer_composition/MCCPUEX/mccomp_tb.v
+FE:/Computer_composition/MCCPUEX/mccomp_tb.v
+L0 3
+R2
+!s108 1714973868.622000
+!s107 E:/Computer_composition/MCCPUEX/mccomp_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/mccomp_tb.v|
+!i113 0
+R3
+vmccpu
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 C0<MngkR1OnhOjE_ZP^7;1
+I7gTXFn]@J]Ib4?ogTQTg^3
+R1
+w1714973377
+8E:/Computer_composition/MCCPUEX/mccpu.v
+FE:/Computer_composition/MCCPUEX/mccpu.v
+L0 1
+R2
+!s108 1714973868.710000
+!s107 E:/Computer_composition/MCCPUEX/mccpu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/mccpu.v|
+!i113 0
+R3
+vmux16
+Z4 !s110 1714973868
+!i10b 1
+!s100 _kD]@DiV[:SJ[]_:lBKV[0
+IW=>JB?o^B<KkTh4^67f7:0
+R0
+R1
+Z5 w1571500140
+Z6 8E:/Computer_composition/MCCPUEX/mux.v
+Z7 FE:/Computer_composition/MCCPUEX/mux.v
+L0 71
+R2
+r1
+!s85 0
+31
+Z8 !s108 1714973868.801000
+Z9 !s107 E:/Computer_composition/MCCPUEX/mux.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/mux.v|
+!i113 0
+R3
+vmux2
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 QXC^TY7h[nMB8eh1LThKL1
+IPeUi;B]9[fe6=dBjba=he1
+R1
+R5
+R6
+R7
+L0 2
+R2
+R8
+R9
+R10
+!i113 0
+R3
+vmux4
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 3KQ[c;ZUY31^gKT9SAAk20
+I7`:?QTz>HBBLCK7gjhz^^3
+R1
+R5
+R6
+R7
+L0 15
+R2
+R8
+R9
+R10
+!i113 0
+R3
+vmux8
+R4
+!i10b 1
+!s100 FLg[0F=fBIb=LWfFP8G0M0
+I5>@gfGVh_ZfV02E<XhATc3
+R0
+R1
+R5
+R6
+R7
+L0 40
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R3
+vRF
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 e?U@1Fe^@gYOeA1VZZ@]^0
+I4KLhb1Fb=nQcgZAo17M9Q3
+R1
+w1571500702
+8E:/Computer_composition/MCCPUEX/RF.v
+FE:/Computer_composition/MCCPUEX/RF.v
+L0 2
+R2
+!s108 1714973868.882000
+!s107 E:/Computer_composition/MCCPUEX/RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Computer_composition/MCCPUEX/RF.v|
+!i113 0
+R3
+n@r@f

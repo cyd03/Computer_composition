@@ -1,0 +1,94 @@
+E:/Computer_composition/SCCPUEX/sccomp.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/sccomp.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sccomp
+
+Top level modules:
+	sccomp
+
+} {} {}} E:/Computer_composition/SCCPUEX/ctrl.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/ctrl.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} E:/Computer_composition/SCCPUEX/sccpu.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/sccpu.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sccpu
+
+Top level modules:
+	sccpu
+
+} {} {}} E:/Computer_composition/SCCPUEX/im.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/im.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} E:/Computer_composition/SCCPUEX/dm.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/dm.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} E:/Computer_composition/SCCPUEX/sccomp_tb.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/sccomp_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sccomp_tb
+
+Top level modules:
+	sccomp_tb
+
+} {} {}} E:/Computer_composition/SCCPUEX/PC.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/PC.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} E:/Computer_composition/SCCPUEX/RF.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/RF.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} E:/Computer_composition/SCCPUEX/ctrl_encode_def.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/ctrl_encode_def.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}} E:/Computer_composition/SCCPUEX/EXT.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/EXT.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} E:/Computer_composition/SCCPUEX/NPC.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/NPC.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} E:/Computer_composition/SCCPUEX/alu.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/alu.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} E:/Computer_composition/SCCPUEX/mux.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/SCCPUEX/mux.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2
+-- Compiling module mux4
+-- Compiling module mux8
+-- Compiling module mux16
+
+Top level modules:
+	mux2
+	mux4
+	mux8
+	mux16
+
+} {} {}}

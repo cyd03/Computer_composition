@@ -1,0 +1,87 @@
+E:/Computer_composition/MCCPUEX/dm.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/dm.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} E:/Computer_composition/MCCPUEX/mccomp.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/mccomp.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mccomp
+
+Top level modules:
+	mccomp
+
+} {} {}} E:/Computer_composition/MCCPUEX/mccpu.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/mccpu.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mccpu
+
+Top level modules:
+	mccpu
+
+} {} {}} E:/Computer_composition/MCCPUEX/ctrl_encode_def.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/ctrl_encode_def.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}} E:/Computer_composition/MCCPUEX/RF.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/RF.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} E:/Computer_composition/MCCPUEX/EXT.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/EXT.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} E:/Computer_composition/MCCPUEX/alu.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/alu.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} E:/Computer_composition/MCCPUEX/mux.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/mux.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2
+-- Compiling module mux4
+-- Compiling module mux8
+-- Compiling module mux16
+
+Top level modules:
+	mux2
+	mux4
+	mux8
+	mux16
+
+} {} {}} E:/Computer_composition/MCCPUEX/flopr.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/flopr.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} E:/Computer_composition/MCCPUEX/mccomp_tb.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/mccomp_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mccomp_tb
+
+Top level modules:
+	mccomp_tb
+
+} {} {}} E:/Computer_composition/MCCPUEX/ctrl.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/ctrl.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} E:/Computer_composition/MCCPUEX/flopenr.v {1 {vlog -work work -vopt -stats=none E:/Computer_composition/MCCPUEX/flopenr.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module flopenr
+
+Top level modules:
+	flopenr
+
+} {} {}}

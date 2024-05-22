@@ -1,0 +1,1291 @@
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim -gui C:\Users\cyds\Desktop\SCCPUEX\alu.v 
+# Start time: 22:26:11 on May 05,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# ** Warning: (vsim-7) Failed to open readmem file "studentnosortiing_cut.dat" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/Computer_composition/SCCPUEX/sccomp_tb.v(15)
+#    Time: 0 ns  Iteration: 0  Instance: /sccomp_tb
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 22:27:31 on May 05,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffffff,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xxxxxxxfe,
+# dmem[0x00000008] = 0xxxxxxx60,
+# dmem[0x00000008] = 0xxxxxxxaf,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000010] = 0x00001234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000014] = 0x00001234,
+# r[10] = 0x00000034,
+# dmem[0x00000018] = 0x00000034,
+# r[10] = 0x00000034,
+# dmem[0x0000001c] = 0x00000034,
+# r[10] = 0x00000034,
+run 2000
+# dmem[0x00000020] = 0x00000034,
+run 200
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 22:32:23 on May 05,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xxxxxxxfe,
+# dmem[0x00000008] = 0xxxxxxx60,
+# dmem[0x00000008] = 0xxxxxxxaf,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000010] = 0x00001234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000014] = 0x00001234,
+# r[10] = 0x00000034,
+# dmem[0x00000018] = 0x00000034,
+# r[10] = 0x00000034,
+# dmem[0x0000001c] = 0x00000034,
+# r[10] = 0x00000034,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 22:40:28 on May 05,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xxxxxxxfe,
+# dmem[0x00000008] = 0xxxxxxx60,
+# dmem[0x00000008] = 0xxxxxxxaf,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0xffff9876,
+# dmem[0x00000010] = 0xffff9876,
+# r[ 9] = 0x00009876,
+# dmem[0x00000014] = 0x00009876,
+# r[10] = 0x00000012,
+# dmem[0x00000018] = 0x00000012,
+# r[10] = 0x00000012,
+# dmem[0x0000001c] = 0x00000012,
+# r[10] = 0x00000012,
+run 2000
+# dmem[0x00000020] = 0x00000012,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v failed with 2 errors.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v failed with 2 errors.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v failed with 1 errors.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 22:48:46 on May 05,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0x6e60xxxx,
+# dmem[0x00000008] = 0xc3afxxxx,
+# dmem[0x00000004] = 0xxxxxfexx,
+# dmem[0x00000008] = 0xxxxx60xx,
+# dmem[0x00000008] = 0xxxxxafxx,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0xffff9876,
+# dmem[0x00000010] = 0xffff9876,
+# r[ 9] = 0x00009876,
+# dmem[0x00000014] = 0x00009876,
+# r[10] = 0x00000012,
+# dmem[0x00000018] = 0x00000012,
+# r[10] = 0x00000012,
+# dmem[0x0000001c] = 0x00000012,
+# r[10] = 0x00000012,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 22:56:26 on May 05,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xc3af6e60,
+# dmem[0x00000008] = 0x0000c3af,
+# dmem[0x00000004] = 0xfffffffe,
+# dmem[0x00000008] = 0xc3af6e60,
+# dmem[0x00000008] = 0x0000c3af,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0xffff9876,
+# dmem[0x00000010] = 0xffff9876,
+# r[ 9] = 0x00009876,
+# dmem[0x00000014] = 0x00009876,
+# r[10] = 0x00000012,
+# dmem[0x00000018] = 0x00000012,
+# r[10] = 0x00000012,
+# dmem[0x0000001c] = 0x00000012,
+# r[10] = 0x00000012,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 00:20:45 on May 06,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0xxxxxxxxx,
+# r[ 9] = 0xxxxxxxxx,
+# r[10] = 0xxxxxxxxx,
+# r[10] = 0xxxxxxxxx,
+# r[11] = 0xxxxxxxxx,
+# r[12] = 0xxxxxxxxx,
+# r[13] = 0xxxxxxxxx,
+# r[14] = 0xxxxxxxxx,
+# r[19] = 0x0000000X,
+# r[20] = 0x0000000X,
+# r[ 8] = 0xxxxxxxxX,
+# r[ 9] = 0x0000xxxx,
+# r[10] = 0xxxxxxxxx,
+# r[11] = 0x00003410,
+# r[12] = 0xxxxx0000,
+# r[13] = 0x0000xxxx,
+# r[14] = 0xxxxxxxxx,
+# r[ 4] = 0xxxxxxxxx,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v failed with 1 errors.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 00:27:11 on May 06,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xfexxxxxx,
+# dmem[0x00000008] = 0x60xxxxxx,
+# dmem[0x00000008] = 0xafxxxxxx,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0xffff9876,
+# dmem[0x00000010] = 0xffff9876,
+# r[ 9] = 0x00009876,
+# dmem[0x00000014] = 0x00009876,
+# r[10] = 0x00000012,
+# dmem[0x00000018] = 0x00000012,
+# r[10] = 0x00000012,
+# dmem[0x0000001c] = 0x00000012,
+# r[10] = 0x00000012,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 00:42:27 on May 06,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 4000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xfexxxxxx,
+# dmem[0x00000008] = 0x60xxxxxx,
+# dmem[0x00000008] = 0xafxxxxxx,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0xffff9876,
+# dmem[0x00000010] = 0xffff9876,
+# r[ 9] = 0x00009876,
+# dmem[0x00000014] = 0x00009876,
+# r[10] = 0x00000034,
+# dmem[0x00000018] = 0x00000034,
+# r[10] = 0x00000034,
+# dmem[0x0000001c] = 0x00000034,
+# r[10] = 0x00000034,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 00:46:57 on May 06,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xfexxxxxx,
+# dmem[0x00000008] = 0x60xxxxxx,
+# dmem[0x00000008] = 0xafxxxxxx,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0xffff9876,
+# dmem[0x00000010] = 0xffff9876,
+# r[ 9] = 0x00009876,
+# dmem[0x00000014] = 0x00009876,
+# r[10] = 0x00000034,
+# dmem[0x00000018] = 0x00000034,
+# r[10] = 0x00000034,
+# dmem[0x0000001c] = 0x00000034,
+# r[10] = 0x00000034,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 00:55:09 on May 06,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xfexxxxxx,
+# dmem[0x00000008] = 0x60xxxxxx,
+# dmem[0x00000008] = 0xafxxxxxx,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0xffff1234,
+# dmem[0x00000010] = 0xffff1234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000014] = 0x00001234,
+# r[10] = 0x00000034,
+# dmem[0x00000018] = 0x00000034,
+# r[10] = 0x00000034,
+# dmem[0x0000001c] = 0x00000034,
+# r[10] = 0x00000034,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 00:58:32 on May 06,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xfexxxxxx,
+# dmem[0x00000008] = 0x60xxxxxx,
+# dmem[0x00000008] = 0xafxxxxxx,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000010] = 0x00001234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000014] = 0x00001234,
+# r[10] = 0x00000034,
+# dmem[0x00000018] = 0x00000034,
+# r[10] = 0x00000034,
+# dmem[0x0000001c] = 0x00000034,
+# r[10] = 0x00000034,
+# Break key hit
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 01:03:21 on May 06,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xfexxxxxx,
+# dmem[0x00000008] = 0x60xxxxxx,
+# dmem[0x00000008] = 0xafxxxxxx,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000010] = 0x00001234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000014] = 0x00001234,
+# r[10] = 0x00000034,
+# dmem[0x00000018] = 0x00000034,
+# r[10] = 0x00000034,
+# dmem[0x0000001c] = 0x00000034,
+# r[10] = 0x00000034,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui -novopt work.sccomp_tb
+# vsim 
+# Start time: 01:08:35 on May 06,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccomp
+# Loading work.sccomp
+# Refreshing E:/Computer_composition/SCCPUEX/work.sccpu
+# Loading work.sccpu
+# Refreshing E:/Computer_composition/SCCPUEX/work.ctrl
+# Loading work.ctrl
+# Refreshing E:/Computer_composition/SCCPUEX/work.PC
+# Loading work.PC
+# Refreshing E:/Computer_composition/SCCPUEX/work.NPC
+# Loading work.NPC
+# Refreshing E:/Computer_composition/SCCPUEX/work.RF
+# Loading work.RF
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux4
+# Loading work.mux4
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux8
+# Loading work.mux8
+# Refreshing E:/Computer_composition/SCCPUEX/work.EXT
+# Loading work.EXT
+# Refreshing E:/Computer_composition/SCCPUEX/work.mux2
+# Loading work.mux2
+# Refreshing E:/Computer_composition/SCCPUEX/work.alu
+# Loading work.alu
+# Refreshing E:/Computer_composition/SCCPUEX/work.dm
+# Loading work.dm
+# Refreshing E:/Computer_composition/SCCPUEX/work.im
+# Loading work.im
+run 2000
+# r[ 3] = 0x98760000,
+# r[ 2] = 0x00001234,
+# r[ 8] = 0x9875edcc,
+# r[ 9] = 0x0003edcc,
+# r[10] = 0x9879db98,
+# r[10] = 0x9879edcc,
+# r[11] = 0x0003edcc,
+# r[12] = 0x67841233,
+# r[13] = 0x987bedcc,
+# r[14] = 0x0001edcc,
+# r[19] = 0x00000001,
+# r[20] = 0x00000000,
+# r[ 8] = 0xc3af6e60,
+# r[ 9] = 0x0000c3af,
+# r[10] = 0xfffffffe,
+# r[11] = 0x00003410,
+# r[12] = 0x6e600000,
+# r[13] = 0x0000c3af,
+# r[14] = 0xffffc3af,
+# r[ 4] = 0x98761234,
+run 2000
+# r[29] = 0x00000000,
+# dmem[0x00000000] = 0x98761234,
+# dmem[0x00000004] = 0x98761234,
+# dmem[0x00000008] = 0x98761234,
+# dmem[0x00000004] = 0xxxxx6e60,
+# dmem[0x00000008] = 0xxxxxc3af,
+# dmem[0x00000004] = 0xfexxxxxx,
+# dmem[0x00000008] = 0x60xxxxxx,
+# dmem[0x00000008] = 0xafxxxxxx,
+# r[ 8] = 0x98761234,
+# dmem[0x0000000c] = 0x98761234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000010] = 0x00001234,
+# r[ 9] = 0x00001234,
+# dmem[0x00000014] = 0x00001234,
+# r[10] = 0x00000034,
+# dmem[0x00000018] = 0x00000034,
+# r[10] = 0x00000034,
+# dmem[0x0000001c] = 0x00000034,
+# r[10] = 0x00000034,
+quit -sim
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors.
